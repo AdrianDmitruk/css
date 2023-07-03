@@ -79,3 +79,28 @@
   text-decoration: line-through;
   text-decoration-color: chocolate;
 }
+
+.img_left {
+  float: left;
+  width: 400px;
+  margin: 0 20px 10px 0;
+}
+
+.img_right {
+  float: right;
+  width: 400px;
+  margin: 20px 0 10px 20px;
+}
+
+.second_block {
+  margin: 40px 0 40px 0;
+  height: 300px;
+  overflow: auto;
+}
+
+.img_world {
+  shape-outside: ellipse();
+  width: 300px;
+  height: 300px;
+  float: left;
+}
