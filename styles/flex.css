@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header, footer{
+    background-color: blue;
+}
+
+aside{
+    background-color: rgb(90, 120, 218);
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+}
+
+header{
+    flex: 0 0 auto;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0 10px 0;
+}
+
+.header__logo{
+    flex-basis: 33.33%;
+    background-color: aqua;
+}
+
+.header__nav{
+    flex-basis: 33.33%;
+    background-color: aqua;
+}
+
+.header__logout{
+    flex-basis: 33.33%;
+    background-color: aqua;
+}
+
+main{
+    flex: 1 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.main__left{
+    flex-basis: 30%;
+}
+
+.main__right{
+    flex-basis: 70%;
+}
+
+footer{
+    height: 60px;
+    flex: 0 0 auto;
+}
