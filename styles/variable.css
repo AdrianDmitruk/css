@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --wrap-color: rgb(80, 162, 255);
+    --bg-color: blue;
+    --text-color: white;
+}
+
+.wrap{
+    background: var(--wrap-color);
+    display: inline-block;
+    padding: 10px;
+}
+
+.text{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
